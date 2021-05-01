@@ -1,0 +1,136 @@
+/* This code belows chooses the text in the animations font */
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+/* This code belows chooses the background */
+body{
+  background: #000;
+}
+/* This code belows alligns and postions the text */
+.container{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+}
+/* This code belows makes the text uppercase */
+
+.container span{
+  text-transform: uppercase;
+  display: block;
+}
+/* This code belows makes text1's colour white and also changed the size,spacing and chooses what the text will look like at the start of the animation */
+
+.text1{
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+  background: black;
+  position: relative;
+  animation: text 3s 1;
+}
+/* This code belows chooses text2's font size and colour */
+
+.text2{
+  font-size: 30px;
+  color: #6ab04c;
+
+}
+/* This code belows tells the text what to do at 0% and 30% of the animaiton */
+
+@keyframes text {
+  0%{
+    color: black;
+    margin-bottom:-40px;
+
+  }
+  30%{
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+  }
+}
+/* This code belows adds the background image*/
+
+body {
+background-image: url("../img/papyrus.webp");
+}
+/* This code belows chooses the postion of many images */
+
+
+
+
+}
+
+img{
+  margin: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+
+
+}
+/* This code belows effect everything that is inside a ul on the Htmls*/
+
+ul {
+  margin-top:10px ;
+  margin-left:530px ;
+
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  float:left;
+  line-height: 100px;
+
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 79px;
+  font-family: fantasy;
+  color: darkred;
+  padding: 0 20px;
+}
+/* This code belows moves the audio controls */
+
+.audio controls {
+  margin-top:10px ;
+  margin-left:530px ;
+}
+
+/* This code belows controls the footers attributes */
+
+footer {
+  text-decoration: none;
+  font-size: 12px;
+  font-family:sans-serif;
+  list-style: none;
+  display: inline-block;
+  background-color: darkred;
+  color:black;
+}
+/* This code belows chooses the font size and colour for anything in a paragraph */
+
+p {
+  color: white;
+  font-size: 21px;
+
+}
+
+
+
+
+
+}
